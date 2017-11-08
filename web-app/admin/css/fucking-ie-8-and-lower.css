@@ -1,0 +1,5 @@
+ul.clients-list li a:before {display:none}
+.clients-list li a {opacity:.6}
+.clients-list li a:hover, .clients-list li.active a {opacity:1}
+.featured-content .portfolio-detail, .portfolio_item .portfolio-detail{display:none}
+.featured-content:hover .portfolio-detail, .portfolio_item:hover .portfolio-detail{display:block}
