@@ -4928,3 +4928,5 @@ n:728:org/codehaus/groovy/runtime/dgm$1111
 n:1389:java_io_PrintWriter$println$0
 n:2302:org/codehaus/groovy/grails/project/compiler/GrailsProjectWatcher$2
 n:375:org/codehaus/groovy/grails/project/compiler/GrailsProjectWatcher$ClassUpdate
+n:11683:org/springframework/uaa/client/protobuf/UaaClient$UaaEnvelope$Builder
+n:2511:org/springframework/uaa/client/util/Base64$OutputStream
