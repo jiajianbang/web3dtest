@@ -16,7 +16,6 @@
 		<div class="cube"></div>
 		<div class="cube"></div>
 		<div class="cube"></div>
-
 		<div class="cube"></div>
 	</div>
 </div><!--preloader end-->
