@@ -208,7 +208,7 @@
 		<div class="row wow animated fadeInDown">
 			<div class="col-md-12 text-center hero-title">
 				%{--<i class="fa fa-plane"></i>--}%
-				<h2 class="page-title">音乐舞蹈</h2>
+				<a href="${request.contextPath}/MusicDance"><h2 class="page-title">音乐舞蹈</h2></a>
 				<p>将民间音乐与传统舞蹈合并是因为青海地区的民歌都夹着一些本地特色的表现形式，而青海地区的舞蹈都会与相应的传统音乐相辅相成，青海非物质文化遗产中的音乐和舞蹈本身就是同一种表现形式。所以将民间音乐和传统舞蹈统一的划分为音乐舞蹈。</p>
 			</div><!--hero title end-->
 		</div>
