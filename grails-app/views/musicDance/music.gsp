@@ -3,12 +3,9 @@
 
 <head>
 	<meta name="layout" content="admin"/>
-	<title>音乐舞蹈</title>
+	<title>音乐详情</title>
 </head>
 <body>
-<div>
-	<a href="${request.contextPath}/MusicDance/music">测试URL</a>
-</div>
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
