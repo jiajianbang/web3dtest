@@ -23,7 +23,7 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="item active">
-						<img alt="Carousel Bootstrap First" src="http://lorempixel.com/output/sports-q-c-1600-500-1.jpg" />
+						<img style="width:100%" alt="Carousel Bootstrap First" src="http://lorempixel.com/output/sports-q-c-1600-500-1.jpg" />
 						<div class="carousel-caption">
 							<h4>
 								第一个label
@@ -34,7 +34,7 @@
 						</div>
 					</div>
 					<div class="item">
-						<img alt="Carousel Bootstrap Second" src="http://lorempixel.com/output/sports-q-c-1600-500-2.jpg" />
+						<img style="width:100%" alt="Carousel Bootstrap Second" src="http://lorempixel.com/output/sports-q-c-1600-500-2.jpg" />
 						<div class="carousel-caption">
 							<h4>
 								Second Thumbnail label
@@ -45,7 +45,7 @@
 						</div>
 					</div>
 					<div class="item">
-						<img alt="Carousel Bootstrap Third" src="http://lorempixel.com/output/sports-q-c-1600-500-3.jpg" />
+						<img style="width:100%" alt="Carousel Bootstrap Third" src="http://lorempixel.com/output/sports-q-c-1600-500-3.jpg" />
 						<div class="carousel-caption">
 							<h4>
 								Third Thumbnail label
