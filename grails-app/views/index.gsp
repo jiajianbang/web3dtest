@@ -101,7 +101,7 @@
 		<div class="row wow animated fadeInDown">
 			<div class="col-md-12 text-center hero-title">
 				%{--<i class="fa fa-plane"></i>--}%
-				<h2 class="text-white">民间手工艺</h2>
+				<a href="${request.contextPath}/handicraft"><h2 class="page-title">民间手工艺</h2></a>
 				<p class="text-white">青海由于所处的独特地理位置，以及各民族交融的悠久历史，形成了独具特色、底蕴深厚的高原工艺美术文化。且不说精美绝伦的热贡艺术、绝无仅有的土族盘绣、近年来走出寺院的石雕、面具、木版画艺术，就是遍布全省大部分地区的刺绣、剪纸、皮影、农民画也有着浓郁的青海地方特色。</p>
 			</div><!--hero title end-->
 		</div>
