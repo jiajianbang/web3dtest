@@ -14,70 +14,35 @@
 
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-					</button> <a class="navbar-brand" href="#">Brand</a>
+					</button> <a class="navbar-brand" href="http://localhost:8080/web3dproduct/#about">首页</a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li class="active">
-							<a href="#">Link</a>
+							<a href="#">音乐</a>
 						</li>
 						<li>
-							<a href="#">Link</a>
-						</li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="#">Action</a>
-								</li>
-								<li>
-									<a href="#">Another action</a>
-								</li>
-								<li>
-									<a href="#">Something else here</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#">Separated link</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#">One more separated link</a>
-								</li>
-							</ul>
+							<a href="#">舞蹈</a>
 						</li>
 					</ul>
 					<form class="navbar-form navbar-left" role="search">
 						<div class="form-group">
 							<input type="text" class="form-control" />
 						</div>
-						<button type="submit" class="btn btn-default">
-							Submit
+						<button type="搜索" class="btn btn-default">
+							搜索
 						</button>
 					</form>
 					<ul class="nav navbar-nav navbar-right">
-						<li>
-							<a href="#">Link</a>
-						</li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">更多<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
 								<li>
-									<a href="#">Action</a>
+									<a href="#">登录/登出</a>
 								</li>
 								<li>
-									<a href="#">Another action</a>
-								</li>
-								<li>
-									<a href="#">Something else here</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#">Separated link</a>
+									<a href="#">反馈</a>
 								</li>
 							</ul>
 						</li>
@@ -99,10 +64,10 @@
 						<img alt="Carousel Bootstrap First" src="http://lorempixel.com/output/sports-q-c-1600-500-1.jpg" />
 						<div class="carousel-caption">
 							<h4>
-								First Thumbnail label
+								迷人多姿的撒拉族舞蹈
 							</h4>
 							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+								4月19日，在青海省循化撒拉族自治县举办的中国撒拉族旅游文化节上，当地演员为国内外观众表演了迷人多姿的传统民族舞蹈。
 							</p>
 						</div>
 					</div>
@@ -131,38 +96,33 @@
 				</div> <a class="left carousel-control" href="#carousel-726272" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-726272" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 			</div>
 			<h3>
-				h3. Lorem ipsum dolor sit amet.
+				·青海民间音乐
 			</h3>
 			<div class="row">
 				<div class="col-md-3">
 					<dl>
 						<dt>
-							Description lists
+							音乐
 						</dt>
 						<dd>
-							A description list is perfect for defining terms.
+							音乐和语言一样，都起源于人类互相交流的需要。
 						</dd>
 						<dt>
-							Euismod
+							人们在生活、劳动、节庆、娱乐中需要表情达意，
 						</dt>
 						<dd>
-							Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
+							随即产生了各种口头创作或即兴创作并广为流传的民间音乐，
 						</dd>
 						<dd>
-							Donec id elit non mi porta gravida at eget metus.
+							它包括民间歌曲、民间器乐、民间歌舞音乐等。
 						</dd>
 						<dt>
-							Malesuada porta
+							青海民间音乐
 						</dt>
 						<dd>
-							Etiam porta sem malesuada magna mollis euismod.
+							主要体现在花儿，笛奏等。
 						</dd>
-						<dt>
-							Felis euismod semper eget lacinia
-						</dt>
-						<dd>
-							Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-						</dd>
+
 					</dl>
 				</div>
 				<div class="col-md-9">
@@ -219,7 +179,7 @@
 				</div>
 			</div>
 			<h3>
-				h3. Lorem ipsum dolor sit amet.
+				·青海民间舞蹈
 			</h3>
 			<div class="row">
 				<div class="col-md-3">
