@@ -5471,3 +5471,5 @@ n:1521:grails/build/logging/GrailsConsole$error$2
 n:2063:org/codehaus/groovy/grails/cli/api/BaseSettingsApi$exit$1
 n:1824:grails/util/BuildSettings$getClassesDir
 n:1820:grails/util/BuildSettings$getBaseDir$0
+n:1416:java_lang_CharSequence$toString$1
+n:1513:java_lang_CharSequence$length$2
