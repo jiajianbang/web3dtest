@@ -29,7 +29,7 @@
 	<div class="welcome-text">
 		<div class="container">
 			<h2 class="wow animated fadeInDown">欢迎来到青海非物质文化博物馆</h2>
-			<p class="wow animated fadeInUp">青海非物质文化博物馆的宗旨：让所有青海非物质文化遗产三维化，让人可以通过视频、音频、AR、VR等方式了解和传承青海非物质文化遗产</p>
+			<p class="wow animated fadeInUp">青海非物质文    化博物馆的宗旨：让所有青海非物质文化遗产三维化，让人可以通过视频、音频、AR、VR等方式了解和传承青海非物质文化遗产</p>
 			<div class="social-bookmark animated bounceInLeft">
 				%{--<a class="animated fadeInDown" href=""><i class="fa fa-facebook-square"></i></a>--}%
 				<a href="#about"><i class="fa fa-angle-double-down"></i></a>

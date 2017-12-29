@@ -8,22 +8,65 @@
 <!doctype html>
 <html lang="zh">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="layout" content="admin"/>
     <title>民间美术文学</title>
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/default.css">
-    <style type="text/css">
 
-    </style>
-    <!--[if IE]>
-<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
-<![endif]-->
 </head>
 <body>
+
 <div class="container-fluid">
     <div class="row">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="carousel slide" id="carousel-733554">
+                        <ol class="carousel-indicators">
+                            <li class="active" data-slide-to="0" data-target="#carousel-733554">
+                            </li>
+                            <li data-slide-to="1" data-target="#carousel-733554">
+                            </li>
+                            <li data-slide-to="2" data-target="#carousel-733554">
+                            </li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img style="width: 100%" alt="Carousel Bootstrap First" src="http://lorempixel.com/output/sports-q-c-1600-500-1.jpg" />
+                                <div class="carousel-caption">
+                                    <h4>
+                                        First Thumbnail label
+                                    </h4>
+                                    <p>
+                                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img style="width: 100%" alt="Carousel Bootstrap Second" src="http://lorempixel.com/output/sports-q-c-1600-500-2.jpg" />
+                                <div class="carousel-caption">
+                                    <h4>
+                                        Second Thumbnail label
+                                    </h4>
+                                    <p>
+                                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img style="width: 100%" alt="Carousel Bootstrap Third" src="http://lorempixel.com/output/sports-q-c-1600-500-3.jpg" />
+                                <div class="carousel-caption">
+                                    <h4>
+                                        Third Thumbnail label
+                                    </h4>
+                                    <p>
+                                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div> <a class="left carousel-control" href="#carousel-733554" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-733554" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="col-md-12">
             <nav class="navbar navbar-default" role="navigation">
                 <div class="navbar-header">
