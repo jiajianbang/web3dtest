@@ -6,57 +6,59 @@
 	<title>音乐舞蹈</title>
 </head>
 <body>
+<div ng-controller="musicDaneIndexCtr">
+
 <div>
 	<a href="${request.contextPath}/MusicDance/music">测试URL</a>
 </div>
+	{{index_label.imageUrl}}
+	{{second_label.imageUrl}}
+	{{third_label.imageUrl}}
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
-			<div class="carousel slide" id="carousel-235244">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+
 				<ol class="carousel-indicators">
-					<li class="active" data-slide-to="0" data-target="#carousel-235244">
-					</li>
-					<li data-slide-to="1" data-target="#carousel-235244">
-					</li>
-					<li data-slide-to="2" data-target="#carousel-235244">
-					</li>
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
 				</ol>
+
 				<div class="carousel-inner">
 					<div class="item active">
-						<img style="width:100%" alt="Carousel Bootstrap First" src="http://lorempixel.com/output/sports-q-c-1600-500-1.jpg" />
-						<div class="carousel-caption">
-							<h4>
-								第一个label
-							</h4>
-							<p>
-								浪as待发送加拉斯;dfjals  , dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							</p>
+						<img src="{{index_label.imageUrl}}" style="width:100%">
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>{{index_label.labelTitle}}</h1>
+								<p>{{index_label.labelDetail}}</p>
+							</div>
 						</div>
 					</div>
 					<div class="item">
-						<img style="width:100%" alt="Carousel Bootstrap Second" src="http://lorempixel.com/output/sports-q-c-1600-500-2.jpg" />
-						<div class="carousel-caption">
-							<h4>
-								Second Thumbnail label
-							</h4>
-							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							</p>
+						<img src="{{second_label.imageUrl}}" style="width:100%">
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>{{second_label.labelTitle}}</h1>
+								<p>{{second_label.labelDetail}}</p>
+							</div>
 						</div>
 					</div>
 					<div class="item">
-						<img style="width:100%" alt="Carousel Bootstrap Third" src="http://lorempixel.com/output/sports-q-c-1600-500-3.jpg" />
-						<div class="carousel-caption">
-							<h4>
-								Third Thumbnail label
-							</h4>
-							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							</p>
+						<img src="{{third_label.imageUrl}}" style="width:100%"  >
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>{{third_label.labelTitle}}</h1>
+								<p>{{third_label.labelDetail}}</p>
+							</div>
 						</div>
 					</div>
-				</div> <a class="left carousel-control" href="#carousel-235244" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-235244" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-			</div>
+
+				</div>
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+			</div><!-- /.carousel -->
 			<div class="row">
 				<div class="col-md-4">
 					<div class="thumbnail">
@@ -127,7 +129,7 @@
 	</div>
 </div>
 
-
+</div>
 %{--</div>--}%
 </body>
 
