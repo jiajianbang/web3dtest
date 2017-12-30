@@ -6,4 +6,7 @@ class ArtLiteratureController {
     def message() { }
     def news() { }
     def show() { }
+    def testIndexPage(){
+        
+    }
 }
