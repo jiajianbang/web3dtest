@@ -7,7 +7,7 @@ class MusicDanceCarousel {
     String labelTitle;//轮播名称
     String labelDetail;//轮播详情
     String imageUrl;//图片URL
-    Integer label;
+    Integer label;//0-1-2-3....
 
     static constraints = {
         remark nullable:true
