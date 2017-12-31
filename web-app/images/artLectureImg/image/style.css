@@ -1,0 +1,257 @@
+/* CSS Document */
+
+body{
+	font:normal 11px/14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#5F0000;
+	background-color:#000;
+	border-top:10px solid #5F0000;
+	padding-top:1px;
+}
+p{
+	margin-bottom:5px;
+}
+*{
+	margin:0;
+	padding:0;
+	}
+img{
+	border:none;
+	outline:none;
+	}
+a{
+	color:#504802;
+	background-color:inherit;
+	font-weight:bold;
+	text-decoration:underline;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:none;
+}
+h2,h3{
+	font-weight:normal;
+	}
+h1{
+	font-size:20px;
+	color:#B64A07;
+	background-color:inherit;
+	margin-bottom:12px;
+}
+h2{
+	color:#B64A07;
+	background-color:inherit;
+	font-size:20px;
+	line-height:23px;
+}
+ul, li{
+	list-style:none;
+	}
+.clear{
+	clear:both;
+	}
+
+strong{
+	color:#4F3300;
+	background-color:inherit;
+}
+/*--------------general end----------------*/
+
+#wrapper{
+	width:954px;
+	margin:0 auto;
+	background-color:#EDE1B8;
+	color:inherit;
+	border-left:2px solid #fff;
+	border-right:2px solid #fff;
+	}
+	
+#header{
+	background:url(images/banner.jpg) no-repeat 0 0;
+}
+
+#topNav{
+	text-align:center;
+	font:bold 12px Georgia, "Times New Roman", Times, serif;
+}
+#topNav a{
+	color:#BEAF29;
+	background-color:inherit;
+}
+#topNav ul{
+	height:42px;
+	color:inherit;
+	background-color:#504802;
+	padding-left:250px;
+}
+#topNav ul li{
+	margin-right:10px;
+	float:left;
+	width:auto;
+	
+}
+#topNav ul li a{
+	display:block;
+	float:left;
+	width:auto;
+	padding:0 14px 0 0;
+	line-height:40px;
+	text-decoration:none;
+	background:url(images/right-curved.gif) no-repeat 100% 50%;
+}
+#topNav .active,
+#topNav ul li a:hover{
+	color:#fff;
+	background-color:inherit;
+}
+#topNav ul li a span{
+	background:url(images/left-curve.gif) no-repeat 0 50%;
+	padding:2px 0 0 14px;
+}
+/*--------------topNav end----------------*/
+
+.featured{
+	font-size:10px;
+}
+.featured p{
+	margin-bottom:1px;
+}
+.featured h3{
+	font:bold 11px Georgia, "Times New Roman", Times, serif ;
+	color:#4F3300;
+	background-color:inherit;
+}
+.featured img{
+	border:2px solid #D4C695;
+	margin-right:6px;
+}
+.featured .featured-sep{
+	background:url(images/featured-border.gif) repeat-y 50% 0;
+}
+/*--------------featured end----------------*/
+
+.category-samples{
+}
+.category-samples p{
+	margin-bottom:12px;
+}
+.category-samples h2{
+	margin-bottom:10px;
+}
+.category-samples img{
+	border:4px solid #D4C695;
+}
+.category-samples ul{
+	}
+.category-samples ul li{
+	font:11px/18px Arial, Helvetica, sans-serif;
+	background:url(images/bullet-category.gif) no-repeat 0 50%;
+	padding-left:10px;
+	}
+.category-samples ul li a{
+	color:#504802;
+	background-color:inherit;
+	font-weight:normal;
+}
+.category-samples strong.samples{
+	color:#5F0000;
+	background-color:inherit;
+}
+.category-samples .carpet{
+}
+.category-samples .carpet p{
+	margin-bottom:5px;
+}
+/*--------------category-samples end----------------*/
+
+#rightColoumn{
+	background:url(images/right-coloumn-bg.gif) #E4D295 repeat-x 0 0;
+	color:inherit;
+	border:2px solid #E4D296;
+}
+#rightColoumn .login{
+	}
+#rightColoumn .login h2{
+	background:url(images/login-logo.gif) no-repeat 0 0;
+	padding-left:81px;
+	height:27px;
+}
+#rightColoumn .login strong{
+	font-size:10px;
+	}
+
+#rightColoumn .login input{
+	font-size:10px;
+	width:221px;
+	height:17px;
+	border:1px solid #DACC98;
+	background-color:#F2E8C3;
+	color:#5F0000;
+	padding:2px 0 0 7px;
+	}
+
+#rightColoumn .login .loginBtn{
+	background:url(images/login-btn.jpg) no-repeat 0 0;
+	width:53px;
+	height:21px;
+	border:0;
+	cursor:pointer;
+	}
+#rightColoumn .login .notMember{
+	color:#B64A07;
+	background-color:inherit;
+	font-size:11px;
+	}	
+/*--------------login end----------------*/
+
+.exhibition{
+}
+.exhibition img{
+	border:4px solid #CBB66A;
+	margin-bottom:5px;
+}
+.exhibition .exhibition-divider{
+	background:url(images/exhibition-divider.gif) repeat-x 0 50%;
+}
+/*--------------exhibition end----------------*/
+
+/*--------------------------------------------
+------------------content end----------------*/
+
+
+#footer{
+	background-color:#5F0000;
+	color:#D75E5E;
+	text-align:center;
+	line-height:18px;
+}
+#footer a{
+	color:#FFFBEF;
+	background-color:inherit;
+}
+#footer ul{
+	text-align:center;
+	width:881px;
+	height:26px;
+	border-top:1px dashed #940000;
+	border-bottom:1px dashed #940000;
+	margin:0 auto;
+	margin-bottom:17px;
+}
+#footer ul li{
+	display:inline;
+	padding:0 17px;
+	font:bold 11px/26px Georgia, "Times New Roman", Times, serif;
+	background:url(images/footer-divider.gif) no-repeat  100% 50%;
+}
+#footer ul li a{
+	text-decoration:none;
+	line-height:26px;
+}
+#footer ul li a:hover{
+	color:#FBE090;
+	background-color:inherit;
+}
+#footer .none{
+	background:none;
+}
