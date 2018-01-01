@@ -6,6 +6,10 @@
 	<title>民间手工艺</title>
 </head>
 <body>
+<div ng-controller="handicraftCtr">
+	<div>
+		您是第{{pageCount}}位访客。
+	</div>
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
@@ -320,6 +324,7 @@
 			</div>
 		</div>
 	</div>
+</div>
 </div>
 %{--</div>--}%
 </body>
