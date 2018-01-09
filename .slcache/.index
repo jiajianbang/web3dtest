@@ -5610,3 +5610,5 @@ n:1134:org/codehaus/groovy/GroovyException
 n:1774:org/codehaus/groovy/control/messages/Message
 n:1964:org/codehaus/groovy/control/messages/SyntaxErrorMessage
 n:3175:org/codehaus/groovy/tools/ErrorReporter
+y:14761:org/codehaus/groovy/grails/commons/GrailsDomainConfigurationUtil
+y:18945:org/grails/datastore/gorm/finders/DynamicFinder
