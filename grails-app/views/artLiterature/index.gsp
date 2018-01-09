@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Tinker CSS Template</title>
+    <title>民间美术文学</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
@@ -38,11 +38,11 @@
             <!--/.navbar-header-->
             <div id="main-nav" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="#" class="scroll-top">Home</a></li>
-                    <li><a href="#" class="scroll-link" data-id="about">About Us</a></li>
-                    <li><a href="#" class="scroll-link" data-id="portfolio">Portfolio</a></li>
-                    <li><a href="#" class="scroll-link" data-id="blog">Blog</a></li>
-                    <li><a href="#" class="scroll-link" data-id="contact-us">Contact Us</a></li>
+                    <li><a href="#" class="scroll-top">返回顶部</a></li>
+                    <li><a href="#" class="scroll-link" data-id="about">基本信息</a></li>
+                    <li><a href="#" class="scroll-link" data-id="portfolio">图片展示</a></li>
+                    <li><a href="#" class="scroll-link" data-id="blog">信息展示</a></li>
+                    <li><a href="#" class="scroll-link" data-id="contact-us">联系我们</a></li>
                 </ul>
             </div>
             <!--/.navbar-collapse-->
@@ -57,10 +57,10 @@
 <div class="parallax-content baner-content" id="home">
     <div class="container">
         <div class="text-content">
-            <h2>Awesome <span>HTML5</span> Template <em>TINKER</em></h2>
-            <p>Phasellus aliquam finibus est, id tincidunt mauris fermentum a. In elementum diam et dui congue, ultrices bibendum mi lacinia. Aliquam lobortis dapibus nunc, nec tempus odio posuere quis. </p>
+            <h2>青海 <span>民间</span> 美术 <em>文学</em></h2>
+            <p>青海作为一个多民族、多元文化交融地区，多民族杂居碰撞的历史使青海的民间文化形成多元化的特点，拥有独特而丰富的非物质文化遗产。民间美术就是一种体现，接下来我们了解青海民间美术。</p>
             <div class="primary-white-button">
-                <a href="#" class="scroll-link" data-id="about">Let's Start</a>
+                <a href="#" class="scroll-link" data-id="about">开始浏览</a>
             </div>
         </div>
     </div>
@@ -348,51 +348,6 @@
     </div>
 </div>
 
-
-
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-12">
-                <div class="logo">
-                    <a href="#" class="scroll-top"><em>T</em>inker</a>
-                    <p>Copyright &copy; 2017 Your Company
-                    | More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12">
-                <div class="location">
-                    <h4>Location</h4>
-                    <ul>
-                        <li>30 Raffles Ave, <br>Singapore 039803</li>
-                        <li>1 Republic Blvd, <br>Singapore 038975</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2 col-sm-12">
-                <div class="contact-info">
-                    <h4>More Info</h4>
-                    <ul>
-                        <li><em>Phone</em>: 010-020-0340</li>
-                        <li><em>Email</em>: tk@company.co</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2 col-sm-12">
-                <div class="connect-us">
-                    <h4>Get Social with us</h4>
-                    <ul>
-                        <li><a href="#" target="_parent"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
 
 <script src="${request.contextPath}/adminshu/js/vendor/jquery-1.11.2.min.js"></script>
 <script>window.jQuery || document.write('<script src="${request.contextPath}/adminshu/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
