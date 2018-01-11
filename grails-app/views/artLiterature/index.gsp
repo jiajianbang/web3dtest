@@ -133,9 +133,9 @@
             <div class="row">
                 <div class="col-md-4 col-sm-12">
                     <div class="section-heading">
-                        <h4>Our Gallery</h4>
+                        <h4>画廊</h4>
                         <div class="line-dec"></div>
-                        <p>Chia hot chicken la croix ugh dreamcatcher man bun squid vaporware kinfolk.</p>
+                        <p>下面展示了一些青海民间美术的非物质文化遗产，大家可以欣赏。</p>
                         <div class="filter-categories">
                             <ul class="project-filter">
                                 <li class="filter" data-filter="all"><span>Show All</span></li>
@@ -143,6 +143,7 @@
                                 <li class="filter" data-filter="graphic"><span>Graphic</span></li>
                                 <li class="filter" data-filter="nature"><span>Nature</span></li>
                                 <li class="filter" data-filter="animation"><span>Animation</span></li>
+                                <li class="filter" data-filter="mudiao"><span>木雕</span></li>
                             </ul>
                         </div>
                     </div>
@@ -208,6 +209,13 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <div id="owl-testimonials" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="testimonials-item">
+                            <p>“ Vivamus cursus at est in gravida. Phasellus semper est quis tellus viverra consectetur eget sed leo. Quisque consectetur tempor cursus. Nullam ut mauris fermentum, pretium risus id, tincidunt ante. ”</p>
+                            <h4>George Rich</h4>
+                            <span>Web Designer</span>
+                        </div>
+                    </div>
                     <div class="item">
                         <div class="testimonials-item">
                             <p>“ Vivamus cursus at est in gravida. Phasellus semper est quis tellus viverra consectetur eget sed leo. Quisque consectetur tempor cursus. Nullam ut mauris fermentum, pretium risus id, tincidunt ante. ”</p>
@@ -305,11 +313,11 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-heading">
-                    <h4>Contact Us</h4>
+                    <h4>联系我们</h4>
                     <div class="line-dec"></div>
-                    <p>Donec sit amet commodo arcu. Sed sit amet iaculis mi, vel fermentum nisi. Morbi dui enim, vestibulum non accumsan ac, tempor non nisl.</p>
+                    <p>如果您对我们的这些文化遗产享有更多深入的了解，那么请您留下您的一些信息，我们将会在后续时间和您取得进一步的联系。</p>
                     <div class="pop-button">
-                        <h4>Send us a message</h4>
+                        <h4>点击此处填写信息</h4>
                     </div>
                 </div>
             </div>
@@ -322,22 +330,22 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <fieldset>
-                                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                                    <input name="name" type="text" class="form-control" id="name" placeholder="您的名字..." required="">
                                 </fieldset>
                             </div>
                             <div class="col-md-12">
                                 <fieldset>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="你的电子邮件..." required="">
                                 </fieldset>
                             </div>
                             <div class="col-md-12">
                                 <fieldset>
-                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="您的建议或其他信息..." required=""></textarea>
                                 </fieldset>
                             </div>
                             <div class="col-md-12">
                                 <fieldset>
-                                    <button type="submit" id="form-submit" class="btn">Send Message</button>
+                                    <button type="submit" id="form-submit" class="btn">发送信息</button>
                                 </fieldset>
                             </div>
                         </div>
