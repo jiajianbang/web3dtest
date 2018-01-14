@@ -133,7 +133,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-12">
                     <div class="section-heading">
-                        <h4>画廊</h4>
+                        <h4>图片展示区</h4>
                         <div class="line-dec"></div>
                         <p>下面展示了一些青海民间美术的非物质文化遗产，大家可以欣赏。</p>
                         <div class="filter-categories">
@@ -211,37 +211,37 @@
                 <div id="owl-testimonials" class="owl-carousel owl-theme">
                     <div class="item">
                         <div class="testimonials-item">
-                            <p>“ Vivamus cursus at est in gravida. Phasellus semper est quis tellus viverra consectetur eget sed leo. Quisque consectetur tempor cursus. Nullam ut mauris fermentum, pretium risus id, tincidunt ante. ”</p>
-                            <h4>George Rich</h4>
-                            <span>Web Designer</span>
+                            <p>湟中县的非物质文化遗产主要包括以下几种：塔尔寺酥油花、农民画、千户营高台、堆绣、壁画。</p>
+                            <h4>湟中非物质文化</h4>
+                            <a href="#"><span>点击了解</span></a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimonials-item">
-                            <p>“ Vivamus cursus at est in gravida. Phasellus semper est quis tellus viverra consectetur eget sed leo. Quisque consectetur tempor cursus. Nullam ut mauris fermentum, pretium risus id, tincidunt ante. ”</p>
-                            <h4>George Rich</h4>
-                            <span>Web Designer</span>
+                            <p>湟源县的非物质文化主要有灯彩，  互助县的非物质文化主要有土族盘秀。</p>
+                            <h4>湟源互助非物质文化</h4>
+                            <a href="#"><span>点击了解</span></a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimonials-item">
-                            <p>“ Phasellus orci nisi, varius sed lacinia et, pulvinar quis est. Curabitur a tincidunt tortor. Cras rhoncus sodales massa sagittis malesuada. Nulla maximus vitae lorem vel elementum. ”</p>
-                            <h4>John Henry</h4>
-                            <span>New Manager</span>
+                            <p>同仁县的非物质文化主要有热贡艺术，大通县的非物质文化主要有农民画。</p>
+                            <h4>同仁大通非物质文化</h4>
+                            <a href="#"><span>点击了解</span></a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimonials-item">
-                            <p>“ Phasellus aliquam finibus est, id tincidunt mauris fermentum a. In elementum diam et dui congue, ultrices bibendum mi lacinia. Aliquam lobortis dapibus nunc, nec tempus odio posuere quis. ”</p>
-                            <h4>Danny Cute</h4>
-                            <span>CEO Founder</span>
+                            <p>贵南县的非物质文化主要有贵南藏绣，海晏县的非物质文化主要有河湟剪纸。</p>
+                            <h4>贵南海晏非物质文化</h4>
+                            <a href="#"><span>点击了解</span></a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimonials-item">
-                            <p>“ Quisque ut ligula venenatis, euismod risus vel, consequat lacus. In ut purus id felis euismod cursus. Praesent in pulvinar arcu, vitae hendrerit lectus. Quisque a urna magna. ”</p>
-                            <h4>Richard Beal</h4>
-                            <span>CSS Developer</span>
+                            <p>格尔木市的主要非物质文化为海西蒙古族木雕。省文化馆则有河湟刺绣。</p>
+                            <h4>格尔木及省文化馆非物质文化</h4>
+                            <a href="#"><span>点击了解</span></a>
                         </div>
                     </div>
                 </div>
@@ -256,14 +256,15 @@
             <div class="wrapper">
                 <div class="col-md-4">
                     <div class="section-heading">
-                        <h4>Our Blog Posts</h4>
+                        <h4>精品视频区</h4>
                         <div class="line-dec"></div>
-                        <p>Chia hot chicken la croix ugh dreamcatcher man bun squid vaporware kinfolk.</p>
+                        <p>下面是我们选出来的一些比较经典的文化遗产视频，欢迎大家欣赏。</p>
                         <ul class="tabs clearfix" data-tabgroup="first-tab-group">
                             <li><a href="#tab1" class="active">Lorem ipsum dolor sit</a></li>
                             <li><a href="#tab2">Quisque ultricies maximus</a></li>
                             <li><a href="#tab3">Sed vel elit et lorem</a></li>
                             <li><a href="#tab4">Vivamus purus neque</a></li>
+                            <li><a href="#tab5">Vivamus purus neque</a></li>
                         </ul>
                     </div>
                 </div>
@@ -294,6 +295,14 @@
                             </div>
                         </div>
                         <div id="tab4">
+                            <img src="${request.contextPath}/adminshu/img/blog_item_04.jpg" alt="">
+                            <div class="text-content">
+                                <h4>Vivamus purus neque</h4>
+                                <span><a href="#">E-Commerce</a> / <a href="#">John</a> / <a href="#">12 August 2017</a></span>
+                                <p>Aliquam erat volutpat. Nulla at nunc nec ante rutrum congue id in diam. Nulla at lectus non turpis placerat volutpat lacinia ut mi. Quisque ultricies maximus justo a blandit. Donec sit amet commodo arcu. Sed sit amet iaculis mi, vel fermentum nisi. Morbi dui enim, vestibulum non accumsan ac, tempor non nisl.</p>
+                            </div>
+                        </div>
+                        <div id="tab5">
                             <img src="${request.contextPath}/adminshu/img/blog_item_04.jpg" alt="">
                             <div class="text-content">
                                 <h4>Vivamus purus neque</h4>
