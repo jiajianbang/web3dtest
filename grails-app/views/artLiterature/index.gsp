@@ -271,7 +271,7 @@
                 <div class="col-md-8">
                     <section id="first-tab-group" class="tabgroup">
                         <div id="tab1">
-                            <img src="${request.contextPath}/adminshu/img/blog_item_01.jpg" alt="">
+                            <img src="${request.contextPath}/adminshu/img/shi-1.jpg" alt="">
                             <div class="text-content">
                                 <h4>土族盘秀</h4>
                                 <span><a href="#">点击观看视频</a></span>
@@ -279,7 +279,7 @@
                             </div>
                         </div>
                         <div id="tab2">
-                            <img src="${request.contextPath}/adminshu/img/blog_item_02.jpg" alt="">
+                            <img src="${request.contextPath}/adminshu/img/shi-2.jpg" alt="">
                             <div class="text-content">
                                 <h4>塔尔寺酥油花</h4>
                                 <span><a href="#">点击观看视频</a></span>
@@ -287,7 +287,7 @@
                             </div>
                         </div>
                         <div id="tab3">
-                            <img src="${request.contextPath}/adminshu/img/blog_item_03.jpg" alt="">
+                            <img src="${request.contextPath}/adminshu/img/shi-3.jpg" alt="">
                             <div class="text-content">
                                 <h4>湟中堆绣</h4>
                                 <span><a href="#">点击观看视频</a></span>
@@ -295,7 +295,7 @@
                             </div>
                         </div>
                         <div id="tab4">
-                            <img src="${request.contextPath}/adminshu/img/blog_item_04.jpg" alt="">
+                            <img src="${request.contextPath}/adminshu/img/shi-4.jpg" alt="">
                             <div class="text-content">
                                 <h4>贵南藏绣</h4>
                                 <span><a href="#">点击观看视频</a></span>
@@ -303,7 +303,7 @@
                             </div>
                         </div>
                         <div id="tab5">
-                            <img src="${request.contextPath}/adminshu/img/blog_item_04.jpg" alt="">
+                            <img src="${request.contextPath}/adminshu/img/shi-5.jpg" alt="">
                             <div class="text-content">
                                 <h4>热贡艺术</h4>
                                 <span><a href="#">点击观看视频</a></span>
