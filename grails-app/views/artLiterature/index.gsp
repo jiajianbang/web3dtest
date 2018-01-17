@@ -40,8 +40,8 @@
                 <ul class="nav navbar-nav">
                     <li><a href="#" class="scroll-top">返回顶部</a></li>
                     <li><a href="#" class="scroll-link" data-id="about">基本信息</a></li>
-                    <li><a href="#" class="scroll-link" data-id="portfolio">图片展示</a></li>
-                    <li><a href="#" class="scroll-link" data-id="blog">信息展示</a></li>
+                    <li><a href="#" class="scroll-link" data-id="portfolio">唯美画廊</a></li>
+                    <li><a href="#" class="scroll-link" data-id="blog">精彩视频</a></li>
                     <li><a href="#" class="scroll-link" data-id="contact-us">联系我们</a></li>
                 </ul>
             </div>
@@ -260,11 +260,11 @@
                         <div class="line-dec"></div>
                         <p>下面是我们选出来的一些比较经典的文化遗产视频，欢迎大家欣赏。</p>
                         <ul class="tabs clearfix" data-tabgroup="first-tab-group">
-                            <li><a href="#tab1" class="active">Lorem ipsum dolor sit</a></li>
-                            <li><a href="#tab2">Quisque ultricies maximus</a></li>
-                            <li><a href="#tab3">Sed vel elit et lorem</a></li>
-                            <li><a href="#tab4">Vivamus purus neque</a></li>
-                            <li><a href="#tab5">Vivamus purus neque</a></li>
+                            <li><a href="#tab1" class="active">土族盘秀</a></li>
+                            <li><a href="#tab2">塔尔寺酥油花</a></li>
+                            <li><a href="#tab3">湟中堆绣</a></li>
+                            <li><a href="#tab4">贵南藏绣</a></li>
+                            <li><a href="#tab5">热贡艺术</a></li>
                         </ul>
                     </div>
                 </div>
@@ -273,41 +273,41 @@
                         <div id="tab1">
                             <img src="${request.contextPath}/adminshu/img/blog_item_01.jpg" alt="">
                             <div class="text-content">
-                                <h4>Lorem ipsum dolor sit amet</h4>
-                                <span><a href="#">Digital Marketing</a> / <a href="#">John</a> / <a href="#">22 September 2017</a></span>
-                                <p>Sed sed elementum diam. Nunc vehicula leo et ante dapibus tincidunt. Praesent fringilla mauris gravida enim laoreet, eu cursus erat dignissim. Praesent lacinia, nisi in suscipit commodo, risus elit viverra neque, ut pretium eros turpis vel enim. Maecenas vitae lacus purus.</p>
+                                <h4>土族盘秀</h4>
+                                <span><a href="#">点击观看视频</a></span>
+                                <p>盘绣是中国土族刺绣中最主要的绣法，是土族妇女一生的必修课。 盘绣是土族独有的一种绣法，复杂巧妙，汇集着古老土族文化的深刻内涵。在青海高原的东部山区，勤劳、朴实的土族妇女世世代代传承着古老传统的民族刺绣艺术，她们的刺绣技艺精湛，做工精细，巧夺天工。</p>
                             </div>
                         </div>
                         <div id="tab2">
                             <img src="${request.contextPath}/adminshu/img/blog_item_02.jpg" alt="">
                             <div class="text-content">
-                                <h4>Quisque ultricies maximus</h4>
-                                <span><a href="#">Branding</a> / <a href="#">David</a> / <a href="#">14 September 2017</a></span>
-                                <p> Quisque eget congue orci. Integer et eros diam. Curabitur aliquam nisi ornare turpis tristique tincidunt ut ut orci. Phasellus orci nisi, varius sed lacinia et, pulvinar quis est. Curabitur a tincidunt tortor. Cras rhoncus sodales massa sagittis malesuada.</p>
+                                <h4>塔尔寺酥油花</h4>
+                                <span><a href="#">点击观看视频</a></span>
+                                <p>酥油花最早产生于西藏苯教，是施食供品上的小小贴花。按印度传统的佛教习俗，供奉佛和菩萨的贡品有六色，即花、涂香、圣水、瓦香、果品和佛灯，可当时天寒草枯没有鲜花，只好用酥油塑花献佛，由此形成艺术传统。</p>
                             </div>
                         </div>
                         <div id="tab3">
                             <img src="${request.contextPath}/adminshu/img/blog_item_03.jpg" alt="">
                             <div class="text-content">
-                                <h4>Sed vel elit et lorem</h4>
-                                <span><a href="#">Web Design</a> / <a href="#">Jacky</a> / <a href="#">25 August 2017</a></span>
-                                <p>Cras sodales, magna non ultrices pellentesque, ligula dui viverra nunc, vitae scelerisque arcu tortor nec nibh. Proin tempor vel nisi et sagittis. Morbi ut sagittis orci, a pretium diam. Nullam sed bibendum turpis. Fusce eget dapibus lectus. Vestibulum ac malesuada lacus, eu vulputate sapien. Sed vel elit et lorem cursus dignissim sed sit amet arcu.</p>
+                                <h4>湟中堆绣</h4>
+                                <span><a href="#">点击观看视频</a></span>
+                                <p>湟中堆绣是一种运用“剪”“堆”等技法塑造形象的艺术，多用于唐卡制作，内容多以藏传佛教题材为主。湟中堆绣距今已有六百多年的历史，珍藏在湟中县塔尔寺中的堆绣是藏传佛教艺术的瑰宝，被誉为塔尔寺艺术三绝之一，闻名遐迩。</p>
                             </div>
                         </div>
                         <div id="tab4">
                             <img src="${request.contextPath}/adminshu/img/blog_item_04.jpg" alt="">
                             <div class="text-content">
-                                <h4>Vivamus purus neque</h4>
-                                <span><a href="#">E-Commerce</a> / <a href="#">John</a> / <a href="#">12 August 2017</a></span>
-                                <p>Aliquam erat volutpat. Nulla at nunc nec ante rutrum congue id in diam. Nulla at lectus non turpis placerat volutpat lacinia ut mi. Quisque ultricies maximus justo a blandit. Donec sit amet commodo arcu. Sed sit amet iaculis mi, vel fermentum nisi. Morbi dui enim, vestibulum non accumsan ac, tempor non nisl.</p>
+                                <h4>贵南藏绣</h4>
+                                <span><a href="#">点击观看视频</a></span>
+                                <p>贵南藏绣，又称贵南针线，是贵南地区藏、汉等民族妇女以藏族装饰图案为主要内容的传统刺绣技艺，过去主要用于民族服饰上，深“藏”于农家大院。随着时代的发展，人们对民族民间手工艺品的需求远远超过机械生产的艺术产品，民族民间工艺品越来越受到人们的青睐，这就为藏绣走出农家，推向市场提供了机遇和平台。</p>
                             </div>
                         </div>
                         <div id="tab5">
                             <img src="${request.contextPath}/adminshu/img/blog_item_04.jpg" alt="">
                             <div class="text-content">
-                                <h4>Vivamus purus neque</h4>
-                                <span><a href="#">E-Commerce</a> / <a href="#">John</a> / <a href="#">12 August 2017</a></span>
-                                <p>Aliquam erat volutpat. Nulla at nunc nec ante rutrum congue id in diam. Nulla at lectus non turpis placerat volutpat lacinia ut mi. Quisque ultricies maximus justo a blandit. Donec sit amet commodo arcu. Sed sit amet iaculis mi, vel fermentum nisi. Morbi dui enim, vestibulum non accumsan ac, tempor non nisl.</p>
+                                <h4>热贡艺术</h4>
+                                <span><a href="#">点击观看视频</a></span>
+                                <p>热贡艺术是中国藏传佛教艺术的重要组成部分和颇具广泛影响的流派，从十五世纪开始，发祥于青海省黄南藏族自治州同仁县境内隆务河流域。数百年来，这里有大批艺人从事民间佛教绘塑艺术，从艺人员之众多，群体技艺之精妙，都为其它藏区所少见，故被誉为“藏族画家之乡”，而同仁地区在藏语中称为“热贡”，因此这一艺术便统称为“热贡艺术”。</p>
                             </div>
                         </div>
                     </section>
