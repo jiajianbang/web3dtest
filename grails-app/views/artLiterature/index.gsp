@@ -213,28 +213,28 @@
                         <div class="testimonials-item">
                             <p>湟中县的非物质文化遗产主要包括以下几种：塔尔寺酥油花、农民画、千户营高台、堆绣、壁画。</p>
                             <h4>湟中非物质文化</h4>
-                            <a href="#"><span>点击了解</span></a>
+                            <a href="${request.contextPath}/ArtLiterature/show.gsp"><span>点击了解</span></a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimonials-item">
                             <p>湟源县的非物质文化主要有灯彩，  互助县的非物质文化主要有土族盘秀。</p>
                             <h4>湟源互助非物质文化</h4>
-                            <a href="#"><span>点击了解</span></a>
+                            <a href="${request.contextPath}/ArtLiterature/show2.gsp"><span>点击了解</span></a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimonials-item">
                             <p>同仁县的非物质文化主要有热贡艺术，大通县的非物质文化主要有农民画。</p>
                             <h4>同仁大通非物质文化</h4>
-                            <a href="#"><span>点击了解</span></a>
+                            <a href="${request.contextPath}/ArtLiterature/show3.gsp"><span>点击了解</span></a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimonials-item">
                             <p>贵南县的非物质文化主要有贵南藏绣，海晏县的非物质文化主要有河湟剪纸。</p>
                             <h4>贵南海晏非物质文化</h4>
-                            <a href="#"><span>点击了解</span></a>
+                            <a href="${request.contextPath}/ArtLiterature/show4.gsp"><span>点击了解</span></a>
                         </div>
                     </div>
                     <div class="item">

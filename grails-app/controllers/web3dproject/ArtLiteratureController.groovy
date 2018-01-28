@@ -3,10 +3,9 @@ package web3dproject
 class ArtLiteratureController {
 
     def index() { }
-    def message() { }
     def news() { }
     def show() { }
-    def testIndexPage(){
-        
-    }
+    def show2() { }
+    def show3() { }
+    def show4() { }
 }
