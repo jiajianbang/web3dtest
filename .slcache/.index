@@ -5612,3 +5612,8 @@ n:1964:org/codehaus/groovy/control/messages/SyntaxErrorMessage
 n:3175:org/codehaus/groovy/tools/ErrorReporter
 y:14761:org/codehaus/groovy/grails/commons/GrailsDomainConfigurationUtil
 y:18945:org/grails/datastore/gorm/finders/DynamicFinder
+y:14761:org/codehaus/groovy/grails/commons/GrailsDomainConfigurationUtil
+y:18945:org/grails/datastore/gorm/finders/DynamicFinder
+n:1576:org/codehaus/groovy/control/CompilationUnit$addSource$1
+y:14761:org/codehaus/groovy/grails/commons/GrailsDomainConfigurationUtil
+y:18945:org/grails/datastore/gorm/finders/DynamicFinder
