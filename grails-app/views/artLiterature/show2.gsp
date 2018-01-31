@@ -1,148 +1,102 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: HP
-  Date: 2017/11/1
-  Time: 16:35
---%>
-
 <!doctype html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>民间美术文学</title>
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/default.css">
-    <style type="text/css">
-
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>鼠标划入特</title>
+    <style>
+    html{
+        font-family:"楷体";
+    }
+    *{
+        margin:0;
+        padding:0;
+    }
+    .wrap{
+        width:840px;
+        height:560px;
+        margin:50px auto;
+    }
+    .wrap ul{
+        height:560px;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-around;
+        /*align-content:space-around;*/
+        align-items:center;
+    }
+    .wrap ul li{
+        width:260px;
+        height:260px;
+        background:yellow;
+        list-style:none;
+        perspective:800px;
+        transform-style:preserve-3d;
+        overflow:hidden;
+    }
+    .box{
+        width:240px;
+        height:240px;
+        background:url("${request.contextPath}/adminshu/img/lineBg.png");
+        padding:10px;
+        transform:translateY(-263px) rotate(130deg) rotateY( -270deg);
+        opacity:0;
+    }
+    .box a{
+        width:240px;
+        height:240px;
+        background:#fff;
+        display:block;
+    }
+    .wrap ul li:hover .box{
+        transform:translateY(-263px) rotate(0deg) rotateY( 0deg);
+        opacity:1;
+        transition:1s;
+    }
     </style>
-    <!--[if IE]>
-<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
-<![endif]-->
 </head>
+
 <body>
-<nav id="navigation">
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#home">青海非物质文化遗产博物馆</a>
+<div class="wrap">
+    <ul>
+        <li>
+            <a href="#"><img src="${request.contextPath}/adminshu/img/11.jpg"></a>
+            <div class="box">
+                <p>灯彩，又叫“花灯”，是起源于中国的一种传统民间手工艺品。</p>
             </div>
-            <div class="navbar-collapse collapse">
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">首页</a></li>
-                    <li><a href="#about">民间文学</a></li>
-                    <li><a href="#features">民间手工艺</a></li>
-                    <li><a href="#portfolio">音乐舞蹈</a></li>
-                    <li><a href="#testimonials">传统戏剧与曲艺</a></li>
-                    <li><a href="#our-team">杂技与竞技</a></li>
-                    <li><a href="#pricing">民间美术</a></li>
-                    <li><a href="#blog">民俗与传统医药</a></li>
-                    <li><a href="#contact">关于我们</a></li>
-                </ul>
-
-            </div><!--/.nav-collapse -->
-        </div><!--/.container -->
-    </div><!--navbar-default-->
-</nav><!--navigation section end here-->
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12">
-            <h3 class="text-center">
-                h3. Lorem ipsum dolor sit amet.
-            </h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="carousel slide" id="carousel-729673">
-                <ol class="carousel-indicators">
-                    <li data-slide-to="0" data-target="#carousel-729673">
-                    </li>
-                    <li data-slide-to="1" data-target="#carousel-729673" class="active">
-                    </li>
-                    <li data-slide-to="2" data-target="#carousel-729673">
-                    </li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item">
-                        <img alt="Carousel Bootstrap First" src="http://lorempixel.com/output/sports-q-c-1600-500-1.jpg" />
-                        <div class="carousel-caption">
-                            <h4>
-                                First Thumbnail label
-                            </h4>
-                            <p>
-                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item active">
-                        <img alt="Carousel Bootstrap Second" src="http://lorempixel.com/output/sports-q-c-1600-500-2.jpg" />
-                        <div class="carousel-caption">
-                            <h4>
-                                Second Thumbnail label
-                            </h4>
-                            <p>
-                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img alt="Carousel Bootstrap Third" src="http://lorempixel.com/output/sports-q-c-1600-500-3.jpg" />
-                        <div class="carousel-caption">
-                            <h4>
-                                Third Thumbnail label
-                            </h4>
-                            <p>
-                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                            </p>
-                        </div>
-                    </div>
-                </div> <a class="left carousel-control" href="#carousel-729673" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-729673" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </li>
+        <li>
+            <a href="#"><img src="${request.contextPath}/adminshu/img/22.jpg"></a>
+            <div class="box">
+                <p>它与流传中国民间的元宵赏灯习俗密切相连。据考证元宵赏灯始于西汉，盛于隋唐，明清尤为风行。上海元宵赏灯习俗，明弘治、嘉靖年间修攥的地方志都有记载。从夏历正月十三上灯，十八落灯，十五元宵灯彩最为高潮动人。每年端午节和中秋节，申城繁华商街也是花灯高熙，灯市红火。由于悠久的赏灯习俗，促进了上海灯彩艺术的发展</p>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/" class="img-thumbnail" />
-                    <p>
-                        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-                    </p><img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/" class="img-thumbnail" />
-                    <p>
-                        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-                    </p><img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/" class="img-thumbnail" />
-                    <p>
-                        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-                    </p>
-                </div>
+        </li>
+        <li>
+            <a href="#"><img src="${request.contextPath}/adminshu/img/33.jpg"></a>
+            <div class="box">
+                <p>灯彩艺术体现了中华民族的才智巧思，它融抽象构成、拟形雕塑、平面书画、复合装饰和光动机制于一体，是一种具有浓郁民族特色的综合空间艺术。本文分析了中国传统文化艺术中的这一独特种类，概述了灯彩艺术的发展历史、种类、制作手法，并结合文化和民俗内涵，阐释了灯彩艺术在民间生活中的作用：它不只是节日的装点和审美的对象，更是一种广泛的存在和无限的人生关怀</p>
             </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="media">
-                <a href="#" class="pull-left"><img alt="Bootstrap Media Preview" src="http://lorempixel.com/64/64/" class="media-object" /></a>
-                <div class="media-body">
-                    <h4 class="media-heading">
-                        Nested media heading
-                    </h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                    <div class="media">
-                        <a href="#" class="pull-left"><img alt="Bootstrap Media Another Preview" src="http://lorempixel.com/64/64/" class="media-object" /></a>
-                        <div class="media-body">
-                            <h4 class="media-heading">
-                                Nested media heading
-                            </h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                        </div>
-                    </div>
-                </div>
+        </li>
+        <li>
+            <a ><img src="${request.contextPath}/adminshu/img/44.jpg"></a>
+            <div class="box">
+                <p>盘绣是中国土族刺绣中最主要的绣法，是土族妇女一生的必修课。 盘绣是土族独有的一种绣法，复杂巧妙，汇集着古老土族文化的深刻内涵。在青海高原的东部山区，勤劳、朴实的土族妇女世世代代传承着古老传统的民族刺绣艺术，她们的刺绣技艺精湛，做工精细，巧夺天工。</p>
             </div>
-        </div>
-    </div>
+        </li>
+        <li>
+            <a ><img src="${request.contextPath}/adminshu/img/55.jpg"></a>
+            <div class="box">
+                <p>土族独具特色的刺绣艺术盘绣源于青海省东北部的互助土族自治县，这里地处祁连山东南麓，为黄土高原与青藏高原交错衔接地带。盘绣是土族刺绣中最主要的绣法，是土族妇女一生的必修课。盘绣是土族独有的一种绣法，复杂巧妙，汇集着古老土族文化的深刻内涵。</p>
+            </div>
+        </li>
+        <li>
+            <a ><img src="${request.contextPath}/adminshu/img/66.jpg"></a>
+            <div class="box">
+                <p>互助土族自治县位于青海省东北部，地处青藏高原与黄土高原结合部，独特的地理位置，使这里形成了独特的自然景观。这里是中国惟一的土族自治县，土族，这个古老的民族世代在这里繁衍生息，使这里形成了独特的人文景观。</p>
+            </div>
+        </li>
+    </ul>
 </div>
 </body>
 </html>
