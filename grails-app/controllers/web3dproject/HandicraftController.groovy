@@ -23,4 +23,5 @@ class HandicraftController {
         }
 
     }
+    def contact() {}
 }
