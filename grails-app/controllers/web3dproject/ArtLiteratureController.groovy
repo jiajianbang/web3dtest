@@ -8,4 +8,5 @@ class ArtLiteratureController {
     def show2() { }
     def show3() { }
     def show4() { }
+    def show5() { }
 }

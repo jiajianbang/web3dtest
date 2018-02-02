@@ -241,7 +241,7 @@
                         <div class="testimonials-item">
                             <p>格尔木市的主要非物质文化为海西蒙古族木雕。省文化馆则有河湟刺绣。</p>
                             <h4>格尔木及省文化馆非物质文化</h4>
-                            <a href="#"><span>点击了解</span></a>
+                            <a href="${request.contextPath}/ArtLiterature/show5.gsp"><span>点击了解</span></a>
                         </div>
                     </div>
                 </div>
