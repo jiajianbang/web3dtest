@@ -5,7 +5,8 @@ import web3dproduct.MusicDanceCarousel
 class MusicDanceController {
 
     def index() { }
-    def music(){ }
+    def music() { }
+    def dance() { }
     def addData(){
         new MusicDanceCarousel(imageUrl: "http://10.150.149.100:18080/img/1.jpg",
                 label: 0, labelTitle: "狐狸", labelDetail: "狐狸图片").save();
