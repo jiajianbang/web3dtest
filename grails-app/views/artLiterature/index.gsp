@@ -42,6 +42,7 @@
                     <li><a href="#" class="scroll-link" data-id="about">基本信息</a></li>
                     <li><a href="#" class="scroll-link" data-id="portfolio">唯美画廊</a></li>
                     <li><a href="#" class="scroll-link" data-id="blog">精彩视频</a></li>
+                    <li><a href="${request.contextPath}/ArtLiterature/news.gsp">新闻资讯</a></li>
                     <li><a href="#" class="scroll-link" data-id="contact-us">联系我们</a></li>
                 </ul>
             </div>

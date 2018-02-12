@@ -1,148 +1,285 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: HP
-  Date: 2017/11/1
-  Time: 16:35
---%>
-
-<!doctype html>
-<html lang="zh">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>民间美术文学</title>
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/default.css">
-    <style type="text/css">
-
-    </style>
-    <!--[if IE]>
-<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
-<![endif]-->
+    <title>新闻资讯</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="${request.contextPath}/adminshu/assets/css/main.css" />
 </head>
 <body>
-<nav id="navigation">
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#home">青海非物质文化遗产博物馆</a>
-            </div>
-            <div class="navbar-collapse collapse">
 
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">首页</a></li>
-                    <li><a href="#about">民间文学</a></li>
-                    <li><a href="#features">民间手工艺</a></li>
-                    <li><a href="#portfolio">音乐舞蹈</a></li>
-                    <li><a href="#testimonials">传统戏剧与曲艺</a></li>
-                    <li><a href="#our-team">杂技与竞技</a></li>
-                    <li><a href="#pricing">民间美术</a></li>
-                    <li><a href="#blog">民俗与传统医药</a></li>
-                    <li><a href="#contact">关于我们</a></li>
+<!-- Wrapper -->
+<div id="wrapper">
+
+
+    <!-- Menu -->
+    <section id="menu">
+
+        <!-- Search -->
+        <section>
+            <form class="search" method="get" action="#">
+                <input type="text" name="query" placeholder="Search" />
+            </form>
+        </section>
+
+        <!-- Links -->
+        <section>
+            <ul class="links">
+                <li>
+                    <a href="#">
+                        <h3>Lorem ipsum</h3>
+                        <p>Feugiat tempus veroeros dolor</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Dolor sit amet</h3>
+                        <p>Sed vitae justo condimentum</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Feugiat veroeros</h3>
+                        <p>Phasellus sed ultricies mi congue</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Etiam sed consequat</h3>
+                        <p>Porta lectus amet ultricies</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Actions -->
+        <section>
+            <ul class="actions vertical">
+                <li><a href="#" class="button big fit">Log In</a></li>
+            </ul>
+        </section>
+
+    </section>
+    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Post -->
+        <article class="post">
+            <header>
+                <div class="title">
+                    <h2><a href="#">Magna sed adipiscing</a></h2>
+                    <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
+                </div>
+                <div class="meta">
+                    <time class="published" datetime="2015-11-01">November 1, 2015</time>
+                    <a href="#" class="author"><span class="name">Jane Doe</span><img src="${request.contextPath}/adminshu/images/avatar.jpg" alt="" /></a>
+                </div>
+            </header>
+            <a href="#" class="image featured"><img src="${request.contextPath}/adminshu/images/pic01.jpg" alt="" /></a>
+            <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <footer>
+                <ul class="actions">
                 </ul>
+                <ul class="stats">
+                    <li><a href="#">General</a></li>
+                    <li><a href="#" class="icon fa-heart">28</a></li>
+                    <li><a href="#" class="icon fa-comment">128</a></li>
+                </ul>
+            </footer>
+        </article>
 
-            </div><!--/.nav-collapse -->
-        </div><!--/.container -->
-    </div><!--navbar-default-->
-</nav><!--navigation section end here-->
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12">
-            <h3 class="text-center">
-                h3. Lorem ipsum dolor sit amet.
-            </h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="carousel slide" id="carousel-729673">
-                <ol class="carousel-indicators">
-                    <li data-slide-to="0" data-target="#carousel-729673">
-                    </li>
-                    <li data-slide-to="1" data-target="#carousel-729673" class="active">
-                    </li>
-                    <li data-slide-to="2" data-target="#carousel-729673">
-                    </li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item">
-                        <img alt="Carousel Bootstrap First" src="http://lorempixel.com/output/sports-q-c-1600-500-1.jpg" />
-                        <div class="carousel-caption">
-                            <h4>
-                                First Thumbnail label
-                            </h4>
-                            <p>
-                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item active">
-                        <img alt="Carousel Bootstrap Second" src="http://lorempixel.com/output/sports-q-c-1600-500-2.jpg" />
-                        <div class="carousel-caption">
-                            <h4>
-                                Second Thumbnail label
-                            </h4>
-                            <p>
-                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img alt="Carousel Bootstrap Third" src="http://lorempixel.com/output/sports-q-c-1600-500-3.jpg" />
-                        <div class="carousel-caption">
-                            <h4>
-                                Third Thumbnail label
-                            </h4>
-                            <p>
-                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                            </p>
-                        </div>
-                    </div>
-                </div> <a class="left carousel-control" href="#carousel-729673" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-729673" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/" class="img-thumbnail" />
-                    <p>
-                        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-                    </p><img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/" class="img-thumbnail" />
-                    <p>
-                        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-                    </p><img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/" class="img-thumbnail" />
-                    <p>
-                        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-                    </p>
+        <!-- Post -->
+        <article class="post">
+            <header>
+                <div class="title">
+                    <h2><a href="#">Ultricies sed magna euismod enim vitae gravida</a></h2>
+                    <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="media">
-                <a href="#" class="pull-left"><img alt="Bootstrap Media Preview" src="http://lorempixel.com/64/64/" class="media-object" /></a>
-                <div class="media-body">
-                    <h4 class="media-heading">
-                        Nested media heading
-                    </h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                    <div class="media">
-                        <a href="#" class="pull-left"><img alt="Bootstrap Media Another Preview" src="http://lorempixel.com/64/64/" class="media-object" /></a>
-                        <div class="media-body">
-                            <h4 class="media-heading">
-                                Nested media heading
-                            </h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                        </div>
-                    </div>
+                <div class="meta">
+                    <time class="published" datetime="2015-10-25">October 25, 2015</time>
+                    <a href="#" class="author"><span class="name">Jane Doe</span><img src="${request.contextPath}/adminshu/images/avatar.jpg" alt="" /></a>
                 </div>
-            </div>
-        </div>
+            </header>
+            <a href="#" class="image featured"><img src="${request.contextPath}/adminshu/images/pic02.jpg" alt="" /></a>
+            <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper.</p>
+            <footer>
+                <ul class="actions">
+                </ul>
+                <ul class="stats">
+                    <li><a href="#">General</a></li>
+                    <li><a href="#" class="icon fa-heart">28</a></li>
+                    <li><a href="#" class="icon fa-comment">128</a></li>
+                </ul>
+            </footer>
+
+        </article>
+
+        <!-- Post -->
+        <article class="post">
+            <header>
+                <div class="title">
+                    <h2><a href="#">Euismod et accumsan</a></h2>
+                    <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
+                </div>
+                <div class="meta">
+                    <time class="published" datetime="2015-10-22">October 22, 2015</time>
+                    <a href="#" class="author"><span class="name">Jane Doe</span><img src="${request.contextPath}/adminshu/images/avatar.jpg" alt="" /></a>
+                </div>
+            </header>
+            <a href="#" class="image featured"><img src="${request.contextPath}/adminshu/images/pic03.jpg" alt="" /></a>
+            <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Cras vehicula tellus eu ligula viverra, ac fringilla turpis suscipit. Quisque vestibulum rhoncus ligula.</p>
+            <footer>
+                <ul class="actions">
+                </ul>
+                <ul class="stats">
+                    <li><a href="#">General</a></li>
+                    <li><a href="#" class="icon fa-heart">28</a></li>
+                    <li><a href="#" class="icon fa-comment">128</a></li>
+                </ul>
+            </footer>
+        </article>
+        <!-- Pagination -->
+        <ul class="actions pagination">
+        </ul>
+
     </div>
+
+    <!-- Sidebar -->
+    <section id="sidebar">
+
+        <!-- Intro -->
+        <section id="intro">
+            <a href="#" class="logo"><img src="${request.contextPath}/adminshu/images/logo.jpg" alt="" /></a>
+            <header>
+                <h2>Future Imperfect</h2>
+                <p>Another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
+            </header>
+        </section>
+
+        <!-- Mini Posts -->
+        <section>
+            <div class="mini-posts">
+
+                <!-- Mini Post -->
+                <article class="mini-post">
+                    <header>
+                        <h3><a href="#">Vitae sed condimentum</a></h3>
+                        <time class="published" datetime="2015-10-20">October 20, 2015</time>
+                        <a href="#" class="author"><img src="${request.contextPath}/adminshu/images/avatar.jpg" alt="" /></a>
+                    </header>
+                    <a href="#" class="image"><img src="${request.contextPath}/adminshu/images/pic04.jpg" alt="" /></a>
+                </article>
+
+                <!-- Mini Post -->
+                <article class="mini-post">
+                    <header>
+                        <h3><a href="#">Rutrum neque accumsan</a></h3>
+                        <time class="published" datetime="2015-10-19">October 19, 2015</time>
+                        <a href="#" class="author"><img src="${request.contextPath}/adminshu/images/avatar.jpg" alt="" /></a>
+                    </header>
+                    <a href="#" class="image"><img src="${request.contextPath}/adminshu/images/pic05.jpg" alt="" /></a>
+                </article>
+
+                <!-- Mini Post -->
+                <article class="mini-post">
+                    <header>
+                        <h3><a href="#">Odio congue mattis</a></h3>
+                        <time class="published" datetime="2015-10-18">October 18, 2015</time>
+                        <a href="#" class="author"><img src="${request.contextPath}/adminshu/images/avatar.jpg" alt="" /></a>
+                    </header>
+                    <a href="#" class="image"><img src="${request.contextPath}/adminshu/images/pic06.jpg" alt="" /></a>
+                </article>
+
+                <!-- Mini Post -->
+                <article class="mini-post">
+                    <header>
+                        <h3><a href="#">Enim nisl veroeros</a></h3>
+                        <time class="published" datetime="2015-10-17">October 17, 2015</time>
+                        <a href="#" class="author"><img src="${request.contextPath}/adminshu/images/avatar.jpg" alt="" /></a>
+                    </header>
+                    <a href="#" class="image"><img src="${request.contextPath}/adminshu/images/pic07.jpg" alt="" /></a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Posts List -->
+        <section>
+            <ul class="posts">
+                <li>
+                    <article>
+                        <header>
+                            <h3><a href="#">Lorem ipsum fermentum ut nisl vitae</a></h3>
+                            <time class="published" datetime="2015-10-20">October 20, 2015</time>
+                        </header>
+                        <a href="#" class="image"><img src="${request.contextPath}/adminshu/images/pic08.jpg" alt="" /></a>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <header>
+                            <h3><a href="#">Convallis maximus nisl mattis nunc id lorem</a></h3>
+                            <time class="published" datetime="2015-10-15">October 15, 2015</time>
+                        </header>
+                        <a href="#" class="image"><img src="${request.contextPath}/adminshu/images/pic09.jpg" alt="" /></a>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <header>
+                            <h3><a href="#">Euismod amet placerat vivamus porttitor</a></h3>
+                            <time class="published" datetime="2015-10-10">October 10, 2015</time>
+                        </header>
+                        <a href="#" class="image"><img src="${request.contextPath}/adminshu/images/pic10.jpg" alt="" /></a>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <header>
+                            <h3><a href="#">Magna enim accumsan tortor cursus ultricies</a></h3>
+                            <time class="published" datetime="2015-10-08">October 8, 2015</time>
+                        </header>
+                        <a href="#" class="image"><img src="${request.contextPath}/adminshu/images/pic11.jpg" alt="" /></a>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <header>
+                            <h3><a href="#">Congue ullam corper lorem ipsum dolor</a></h3>
+                            <time class="published" datetime="2015-10-06">October 7, 2015</time>
+                        </header>
+                        <a href="#" class="image"><img src="${request.contextPath}/adminshu/images/pic12.jpg" alt="" /></a>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <!-- About -->
+        <section class="blurb">
+            <h2>About</h2>
+            <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod amet placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at phasellus sed ultricies.</p>
+            <ul class="actions">
+                <li><a href="#" class="button">Learn More</a></li>
+            </ul>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+        <p>关于我们</p>
+        </section>
+
+    </section>
+
 </div>
+
+<!-- Scripts -->
+<script src="${request.contextPath}/adminshu/assets/js/jquery.min.js"></script>
+<script src="${request.contextPath}/adminshu/assets/js/skel.min.js"></script>
+<script src="${request.contextPath}/adminshu/assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="${request.contextPath}/adminshu/assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="${request.contextPath}/adminshu/assets/js/main.js"></script>
+
 </body>
 </html>
