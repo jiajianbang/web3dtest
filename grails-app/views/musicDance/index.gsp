@@ -96,7 +96,7 @@
     <div class="content-block" id="portfolio">
         <div class="container">
             <header class="block-heading cleafix">
-                <a href="#" class="btn btn-o btn-lg pull-right">更多</a>
+                <a href="${request.contextPath}/musicDance/music.gsp" class="btn btn-o btn-lg pull-right">更多</a>
                 <h1>民间音乐</h1>
                 <p>Music is the perfect expression of the soul.</p>
             </header>
@@ -139,37 +139,37 @@
         </div>
 
 
-    <div class="content-block" id="blog">
-        <div class="container">
-            <header class="block-heading cleafix">
-                <a href="#" class="btn btn-o btn-lg pull-right">更多</a>
-                <h1>传统舞蹈</h1>
-                <p>Dance is the poetry of the body.</p>
-            </header>
-            <section class="block-body">
-                <div class="row">
-                    <div class="col-sm-4 blog-post">
-                        <img src="${request.contextPath}/admin-md/assets/images/bike_water1-1000x600.jpg">
-                        <h2>玉树卓舞</h2>
-                        <p>玉树卓舞流传于青藏高原腹地青海省西南部的玉树藏族自治州一带。卓舞的历史渊源可以追溯到原始社会，玉树卓舞中至今还保留着很多远古时代的痕迹，随着藏族六大氏族的形成，玉树卓舞逐渐以部落、部族和区域文化的形态发展起来。</p>
-                        <a href="">详细</a>
+        <div class="content-block" id="blog">
+            <div class="container">
+                <header class="block-heading cleafix">
+                    <a href="${request.contextPath}/musicDance/dance.gsp" class="btn btn-o btn-lg pull-right">更多</a>
+                    <h1>传统舞蹈</h1>
+                    <p>Dance is the poetry of the body.</p>
+                </header>
+                <section class="block-body">
+                    <div class="row">
+                        <div class="col-sm-4 blog-post">
+                            <img src="${request.contextPath}/admin-md/assets/images/bike_water1-1000x600.jpg">
+                            <h2>玉树卓舞</h2>
+                            <p>玉树卓舞流传于青藏高原腹地青海省西南部的玉树藏族自治州一带。卓舞的历史渊源可以追溯到原始社会，玉树卓舞中至今还保留着很多远古时代的痕迹，随着藏族六大氏族的形成，玉树卓舞逐渐以部落、部族和区域文化的形态发展起来。</p>
+                            <a href="">详细</a>
+                        </div>
+                        <div class="col-sm-4 blog-post">
+                            <img src="${request.contextPath}/admin-md/assets/images/mac_glasses1-1000x600.jpg">
+                            <h2>藏族螭鼓舞</h2>
+                            <p>藏族螭[chī]鼓舞流传于青海循化地区，是一种藏族原始宗教祭祀舞蹈，传说最初是由宁巴村的一个“噶哇珲波”（即土官）每年正月初二在村北的府邸跳，后来由雍增仓活佛将这种舞蹈进一步巩固，并加以规范，由此一直沿袭下来。</p>
+                            <a href="">详细</a>
+                        </div>
+                        <div class="col-sm-4 blog-post">
+                            <img src="${request.contextPath}/admin-md/assets/images/road-1000x600.jpg">
+                            <h2>土族於菟</h2>
+                            <p>土族於菟流传于青海省同仁县年都乎村，是当地特有的一种民俗文化形态，于每年农历十一月初五至二十日举行，包含念平安经、人神共娱、祛疫逐邪等仪式。於菟又是舞者的称谓。仪式开始时，名为於菟的舞者在赤裸的上身绘上虎豹图案沿村进行表演，挨家挨户跳舞。</p>
+                            <a href="">详细</a>
+                        </div>
                     </div>
-                    <div class="col-sm-4 blog-post">
-                        <img src="${request.contextPath}/admin-md/assets/images/mac_glasses1-1000x600.jpg">
-                        <h2>藏族螭鼓舞</h2>
-                        <p>藏族螭[chī]鼓舞流传于青海循化地区，是一种藏族原始宗教祭祀舞蹈，传说最初是由宁巴村的一个“噶哇珲波”（即土官）每年正月初二在村北的府邸跳，后来由雍增仓活佛将这种舞蹈进一步巩固，并加以规范，由此一直沿袭下来。</p>
-                        <a href="">详细</a>
-                    </div>
-                    <div class="col-sm-4 blog-post">
-                        <img src="${request.contextPath}/admin-md/assets/images/road-1000x600.jpg">
-                        <h2>土族於菟</h2>
-                        <p>土族於菟流传于青海省同仁县年都乎村，是当地特有的一种民俗文化形态，于每年农历十一月初五至二十日举行，包含念平安经、人神共娱、祛疫逐邪等仪式。於菟又是舞者的称谓。仪式开始时，名为於菟的舞者在赤裸的上身绘上虎豹图案沿村进行表演，挨家挨户跳舞。</p>
-                        <a href="">详细</a>
-                    </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
-    </div>
 
         <div class="content-block parallax" id="services">
             <div class="container text-center">
@@ -232,27 +232,27 @@
             </div>
         </div><!-- #contact -->
 
-    <div class="content-block" id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-6">&copy; Copyright 2013</div>
-                <div class="col-xs-6 text-right">图像与虚拟现实组版权所有 | 使用反馈 | 帮助| 版权 - Collect from 非物质文化遗产 <a href="http://localhost:8080/web3dproduct/" target="_blank" title="非物质文化遗产">非物质文化遗产</a></div>
+        <div class="content-block" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">&copy; Copyright 2013</div>
+                    <div class="col-xs-6 text-right">图像与虚拟现实组版权所有 | 使用反馈 | 帮助| 版权 - Collect from 非物质文化遗产 <a href="http://localhost:8080/web3dproduct/" target="_blank" title="非物质文化遗产">非物质文化遗产</a></div>
+                </div>
             </div>
         </div>
+
+
     </div>
 
 
-</div>
 
 
-
-
-<script src="${request.contextPath}/admin-md/assets/js/jquery-2.1.3.min.js"></script>
-<script src="${request.contextPath}/admin-md/assets/js/jquery-migrate-1.2.1.min.js"></script>
-<script src="${request.contextPath}/admin-md/assets/js/bootstrap.min.js"></script>
-<script src="${request.contextPath}/admin-md/assets/js/jquery.actual.min.js"></script>
-<script src="${request.contextPath}/admin-md/assets/js/jquery.scrollTo.min.js"></script>
-<script src="${request.contextPath}/admin-md/assets/js/script.js"></script>
+    <script src="${request.contextPath}/admin-md/assets/js/jquery-2.1.3.min.js"></script>
+    <script src="${request.contextPath}/admin-md/assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="${request.contextPath}/admin-md/assets/js/bootstrap.min.js"></script>
+    <script src="${request.contextPath}/admin-md/assets/js/jquery.actual.min.js"></script>
+    <script src="${request.contextPath}/admin-md/assets/js/jquery.scrollTo.min.js"></script>
+    <script src="${request.contextPath}/admin-md/assets/js/script.js"></script>
 
 </body>
 </html>

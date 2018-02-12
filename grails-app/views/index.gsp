@@ -141,7 +141,7 @@
 			<div class="col-md-4 col-sm-6 wow animated fadeInLeft"  data-wow-duration="700ms" data-wow-delay="400ms">
 				<div class="features-item">
 					<i class="fa fa-adjust"></i>
-					<h2>加牙藏族织毯技艺</h2>
+					<a href="${request.contextPath}/tibetanCarpets"><h2>加牙藏族织毯技艺</h2></a>
 					<p>藏毯编织是藏民族创造的优秀手工艺。生活在青藏高原上的民族亘古以来就有着用牛羊毛皮制造生活用品，
 					高原特殊的自然地理环境形成了藏民族独特的生活方式，他们经常使用的遮风挡雨的牛毛帐房，防寒隔潮的毛毡长垫、
 					耐磨的羊皮袄等样样都离不开牛羊。
