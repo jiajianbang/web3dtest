@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web3dtest-grailsPlugins:GrailsWeb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web3dtest_grailsPlugins_GrailsWeb_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="web3dtest-grailsPlugins/web/GrailsWeb" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="javaee-facet-classes" facet="web3dtest-grailsPlugins/web/GrailsWeb" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
