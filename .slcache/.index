@@ -5617,3 +5617,5 @@ y:18945:org/grails/datastore/gorm/finders/DynamicFinder
 n:1576:org/codehaus/groovy/control/CompilationUnit$addSource$1
 y:14761:org/codehaus/groovy/grails/commons/GrailsDomainConfigurationUtil
 y:18945:org/grails/datastore/gorm/finders/DynamicFinder
+n:1416:java_lang_CharSequence$toString$1
+n:1513:java_lang_CharSequence$length$2
