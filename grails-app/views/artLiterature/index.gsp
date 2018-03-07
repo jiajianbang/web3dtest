@@ -139,12 +139,12 @@
                         <p>下面展示了一些青海民间美术的非物质文化遗产，大家可以欣赏。</p>
                         <div class="filter-categories">
                             <ul class="project-filter">
-                                <li class="filter" data-filter="all"><span>全部</span></li>
                                 <li class="filter" data-filter="branding"><span>藏绣</span></li>
                                 <li class="filter" data-filter="graphic"><span>酥油花</span></li>
                                 <li class="filter" data-filter="nature"><span>刺绣</span></li>
                                 <li class="filter" data-filter="animation"><span>剪纸</span></li>
                                 <li class="filter" data-filter="mudiao"><span>木雕</span></li>
+                                <li class="filter" data-filter="regong"><span>热贡</span></li>
                             </ul>
                         </div>
                     </div>
@@ -156,42 +156,56 @@
                                 <div class="col-md-6 col-sm-6 project-item mix nature">
                                     <div class="thumb">
                                         <div class="image">
-                                            <a href="${request.contextPath}/adminshu/img/portfolio_big_item_01.jpg" data-lightbox="image-1"><img src="${request.contextPath}/adminshu/img/portfolio_item_01.jpg"></a>
+                                            <a href="${request.contextPath}/adminshu/img/1.jpg" data-lightbox="image-1"><img src="${request.contextPath}/adminshu/img/01.jpg"></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6 project-item mix animation">
                                     <div class="thumb">
                                         <div class="image">
-                                            <a href="${request.contextPath}/adminshu/img/portfolio_big_item_02.jpg" data-lightbox="image-1"><img src="${request.contextPath}/adminshu/img/portfolio_item_02.jpg"></a>
+                                            <a href="${request.contextPath}/adminshu/img/2.jpg" data-lightbox="image-1"><img src="${request.contextPath}/adminshu/img/02.jpg"></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6 project-item mix branding">
                                     <div class="thumb">
                                         <div class="image">
-                                            <a href="${request.contextPath}/adminshu/img/portfolio_big_item_03.jpg" data-lightbox="image-1"><img src="${request.contextPath}/adminshu/img/portfolio_item_03.jpg"></a>
+                                            <a href="${request.contextPath}/adminshu/img/3.jpg" data-lightbox="image-1"><img src="${request.contextPath}/adminshu/img/03.jpg"></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6 project-item mix graphic nature">
                                     <div class="thumb">
                                         <div class="image">
-                                            <a href="${request.contextPath}/adminshu/img/portfolio_big_item_04.jpg" data-lightbox="image-1"><img src="${request.contextPath}/adminshu/img/portfolio_item_04.jpg"></a>
+                                            <a href="${request.contextPath}/adminshu/img/4.jpg" data-lightbox="image-1"><img src="${request.contextPath}/adminshu/img/04.jpg"></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6 project-item mix branding">
                                     <div class="thumb">
                                         <div class="image">
-                                            <a href="${request.contextPath}/adminshu/img/portfolio_big_item_05.jpg" data-lightbox="image-1"><img src="${request.contextPath}/adminshu/img/portfolio_item_05.jpg"></a>
+                                            <a href="${request.contextPath}/adminshu/img/5.jpg" data-lightbox="image-1"><img src="${request.contextPath}/adminshu/img/05.jpg"></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6 project-item mix graphic animation">
                                     <div class="thumb">
                                         <div class="image">
-                                            <a href="${request.contextPath}/adminshu/img/portfolio_big_item_06.jpg" data-lightbox="image-1"><img src="${request.contextPath}/adminshu/img/portfolio_item_06.jpg"></a>
+                                            <a href="${request.contextPath}/adminshu/img/6.jpg" data-lightbox="image-1"><img src="${request.contextPath}/adminshu/img/06.jpg"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 project-item mix mudiao">
+                                    <div class="thumb">
+                                        <div class="image">
+                                            <a href="${request.contextPath}/adminshu/img/7.jpg" data-lightbox="image-1"><img src="${request.contextPath}/adminshu/img/07.jpg"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 project-item mix regong">
+                                    <div class="thumb">
+                                        <div class="image">
+                                            <a href="${request.contextPath}/adminshu/img/8.jpg" data-lightbox="image-1"><img src="${request.contextPath}/adminshu/img/08.jpg"></a>
                                         </div>
                                     </div>
                                 </div>
