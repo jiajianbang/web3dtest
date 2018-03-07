@@ -33,7 +33,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#" class="navbar-brand scroll-top"><em>T</em>inker</a>
+                <a href="#" class="navbar-brand scroll-top"><em>A</em>rt</a>
             </div>
             <!--/.navbar-header-->
             <div id="main-nav" class="collapse navbar-collapse">
@@ -139,11 +139,11 @@
                         <p>下面展示了一些青海民间美术的非物质文化遗产，大家可以欣赏。</p>
                         <div class="filter-categories">
                             <ul class="project-filter">
-                                <li class="filter" data-filter="all"><span>Show All</span></li>
-                                <li class="filter" data-filter="branding"><span>Branding</span></li>
-                                <li class="filter" data-filter="graphic"><span>Graphic</span></li>
-                                <li class="filter" data-filter="nature"><span>Nature</span></li>
-                                <li class="filter" data-filter="animation"><span>Animation</span></li>
+                                <li class="filter" data-filter="all"><span>全部</span></li>
+                                <li class="filter" data-filter="branding"><span>藏绣</span></li>
+                                <li class="filter" data-filter="graphic"><span>酥油花</span></li>
+                                <li class="filter" data-filter="nature"><span>刺绣</span></li>
+                                <li class="filter" data-filter="animation"><span>剪纸</span></li>
                                 <li class="filter" data-filter="mudiao"><span>木雕</span></li>
                             </ul>
                         </div>
