@@ -81,7 +81,7 @@
                     <p>青海，简称青，省会西宁，位于中国西部，雄踞世界屋脊青藏高原的东北部，是中国青藏高原上的重要省份之一。据全国第二次土地调查公报显示，青海省东西长约1200公里，南北宽800公里，面积为72.10万平方公里。
                     境内山脉高耸，地形多样，河流纵横，湖泊棋布。昆仑山横贯中部，唐古拉山峙立于南，祁连山矗立于北，茫茫草原起伏绵延，柴达木盆地浩瀚无限。长江、黄河之源头在青海，中国最大的内陆高原咸水湖也在青海，因此而得名“青海”。</p>
                     <div class="primary-blue-button">
-                        <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
+
                     </div>
                 </div>
             </div>
@@ -94,7 +94,7 @@
                     <div class="line-dec"></div>
                     <p>青海是一个多民族地区,在七十二万平方公里辽阔、神秘的高原大地上，世代生息繁衍着汉、藏、回、土、撒拉、蒙古等二十多个民族。古朴壮丽的大自然塑造了青海各族人民宽厚、勤劳而又豪放的性格，在长期的生产与生活中,青海各族人民创造着自己的历史、自己的文化、自己的现实与梦想，形成并保持了独特的、丰富多彩的风情和习俗。并且由于多民族文化碰撞产生了许多非物质文化遗产，了解他们的风土人情,对每一个旅游者来说,是一次难忘的经历。</p>
                     <div class="primary-blue-button">
-                        <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
+
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@
                     <div class="line-dec"></div>
                     <p>青海文化是西部少数民族汇集起来的文化，是新疆和西藏的融合。因为拥有中国内陆第一大咸水湖“青海湖”而得名。它地处青藏高原，让青海有着“世界屋脊”的美称，有着丰富的人文和地理资源，同时其独特的环境，高山林立更是爱好登上旅行的乐园，是勇敢者的天堂。生活在青海高原的各个民族除了自己独有的节日和文化活动外，由于在地域上的杂居，政治、经济和文化生活等方面的相互渗透，形成了各民族共有的、代表青海地方特色的乡土文化。</p>
                     <div class="primary-blue-button">
-                        <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
+
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@
                     <div class="line-dec"></div>
                     <p>青海地理环境特殊，民族众多。世居于此的汉、藏、蒙古、土、回、撒拉等各民族，在漫长的历史长河中创造出了自己独特的文化。在这里，藏传佛教、伊斯兰教、道教以及原始宗教等都是在独立发展又相互交融着，并逐渐融合沉淀出青海丰富多彩的非物质文化遗产：神话与传说、青海方言、谚语、禁忌、音乐舞蹈、戏曲曲艺、风俗、民居、饮食、服饰、民族体育等。无论是绘画艺术唐卡，还是藏民族聚居区的“神舞”内容、服饰、道具。都具有独特的特色。</p>
                     <div class="primary-blue-button">
-                        <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
+
                     </div>
                 </div>
             </div>
@@ -228,7 +228,7 @@
                         <div class="testimonials-item">
                             <p>湟中县的非物质文化遗产主要包括以下几种：塔尔寺酥油花、农民画、千户营高台、堆绣、壁画。</p>
                             <h4>湟中非物质文化</h4>
-                            <a href="${request.contextPath}/ArtLiterature/show.gsp"><span>点击了解</span></a>
+                            <a href="${request.contextPath}/ArtLiterature/show.gsp" cloor="red"><span>点击了解</span></a>
                         </div>
                     </div>
                     <div class="item">
@@ -286,7 +286,7 @@
                 <div class="col-md-8">
                     <section id="first-tab-group" class="tabgroup">
                         <div id="tab1">
-                            <img src="${request.contextPath}/adminshu/img/shi-1.jpg" alt="">
+                            <img src="${request.contextPath}/adminshu/img/shi-1.jpg"   alt="">
                             <div class="text-content">
                                 <h4>土族盘秀</h4>
                                 <span><a href="#">点击观看视频</a></span>
@@ -298,7 +298,7 @@
                             <div class="text-content">
                                 <h4>塔尔寺酥油花</h4>
                                 <span><a href="#">点击观看视频</a></span>
-                                <p>酥油花最早产生于西藏苯教，是施食供品上的小小贴花。按印度传统的佛教习俗，供奉佛和菩萨的贡品有六色，即花、涂香、圣水、瓦香、果品和佛灯，可当时天寒草枯没有鲜花，只好用酥油塑花献佛，由此形成艺术传统。</p>
+                                <p>酥油花最早产生于西藏苯教，是施食供品上的小小贴花。按印度传统的佛教习俗，供奉佛和菩萨的贡品有六色，即花、涂香、圣水、瓦香、果品和佛灯，可当时天寒草枯没有鲜花，只好用酥油塑花献佛，由此形成艺术传统，一直流传了下来。</p>
                             </div>
                         </div>
                         <div id="tab3">
