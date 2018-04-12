@@ -8,12 +8,12 @@ class MusicDanceController {
     def music() { }
     def dance() { }
     def addData(){
-        new MusicDanceCarousel(imageUrl: "http://10.150.149.100:18080/img/1.jpg",
+        new MusicDanceCarousel(imageUrl: "https://static.runoob.com/images/mix/img_fjords_wide.jpg",
                 label: 0, labelTitle: "狐狸", labelDetail: "狐狸图片").save();
-        new MusicDanceCarousel(imageUrl: "http://10.150.149.100:18080/img/2.jpg",
-                label: 0, labelTitle: "麋鹿", labelDetail: "麋鹿图片").save();
-        new MusicDanceCarousel(imageUrl: "http://10.150.149.100:18080/img/3.jpg",
-                label: 0, labelTitle: "雪山", labelDetail: "雪山图片").save();
+        new MusicDanceCarousel(imageUrl: "https://static.runoob.com/images/mix/img_nature_wide.jpg",
+                label: 1, labelTitle: "麋鹿", labelDetail: "麋鹿图片").save();
+        new MusicDanceCarousel(imageUrl: "https://static.runoob.com/images/mix/img_mountains_wide.jpg",
+                label: 2, labelTitle: "雪山", labelDetail: "雪山图片").save();
 
         render("ok");
     }

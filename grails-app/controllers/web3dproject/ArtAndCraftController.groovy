@@ -18,4 +18,12 @@ class ArtAndCraftController {
             render("error")
         }
     }
+    def test_lunbo(){}
+    def getlunboLabel(){
+        def firstImage = MusicDanceCarousel.findByLabel(0);
+        def otherImage = MusicDanceCarousel.findAllByLabel(1);
+        render(contentType: 'application/json'){
+            [state:"ok",firstImage:firstImage,otherImage:otherImage]
+        }
+    }
 }
